@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Ai Image Generator</string>
+    <string name="apikey">key value</string>
 </resources>

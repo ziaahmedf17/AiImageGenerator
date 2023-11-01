@@ -29,6 +29,9 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -41,4 +44,6 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     implementation("com.airbnb.android:lottie:6.0.0")
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 }
